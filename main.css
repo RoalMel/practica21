@@ -1,0 +1,785 @@
+/*header{
+    width: 100%;
+    height: 50px;
+    box-shadow: 1px 10px black;
+    position: fixed;
+}*/
+#logo2{
+     
+    width: 25px;
+}
+
+#logo1{
+    width: 400px;  
+    
+    margin-left: 425px;
+}
+
+#logo3{
+    width: 1300px;  
+    
+    margin-left: 30px;
+    height: 92vh;
+}
+
+#cuerpo{
+    background-color: rgb(151, 225, 238)
+}.letra
+#tabla1{
+    background-color: rgb(209, 206, 206)
+}
+
+#titulo{
+    float: center;
+    margin-left: 10px;
+    color:red;
+    background: white;
+    width: 400px;
+     font-size: 50px;
+     font-weight: 625;
+     font-family: 'Times New Roman', Times, serif;
+    
+}
+#numero{
+    color: rgb(31, 78, 120);
+    background: white;
+    border: 3.5px double rgb(12, 97, 167);
+    width: 125px;
+    font-weight: 605;
+}
+#numero1{
+    color: rgb(31, 78, 120);
+    background: white;
+    border: 3.5px double rgb(12, 97, 167);
+    width: 125px;
+    font-weight: 605;
+}
+
+
+
+
+
+#Habilitado1{
+  float: right;
+    margin-right:557px;
+    color:rgb(31, 78, 120);
+    background: white;
+  width: 90px;
+     border: 3.5px double rgb(12, 97, 167);
+     font-weight: 600;
+ }
+ 
+#Habilitado{
+   float: right;
+   margin-top: 10px;
+   margin-right: -128px;
+   
+}
+
+
+#Guardar{
+    float: right;
+    margin-right: -296px;
+    color:rgb(31, 78, 120);
+    background: white;
+  
+     border: 3.5px double rgb(12, 97, 167);
+     font-weight: 600; 
+ }
+
+
+.cuadrodedialogo{
+    font-size: 15px;
+    color:rgb(0, 8, 12);
+   background: white;
+ 
+    border: 3.5px double rgb(12, 97, 167);
+    font-weight: 605;
+}
+.cuadrodedialogo1{
+    font-size: 15px;
+    color:rgb(0, 8, 12);
+   background: white;
+ 
+    border: 3.5px double rgb(12, 97, 167);
+    font-weight: 605;
+    width: 75px;
+}
+.cuadrodedialogo2{
+    font-size: 15px;
+    color:rgb(31, 78, 120);
+   background: white;
+ 
+    border: 3.5px double rgb(12, 97, 167);
+    font-weight: 605;
+    
+}
+.cuadrodedialogo3{
+    font-size: 15px;
+    color:rgb(0, 8, 12);
+   background: white;
+ 
+    border: 3.5px double rgb(12, 97, 167);
+    font-weight: 605;
+    width: 195px;
+}
+.cuadrodedialogo4{
+   
+    margin-left: 135px;
+    
+    font-size: 15px;
+    color:rgb(0, 8, 12);
+   background: white;
+ 
+    border: 3.5px double rgb(12, 97, 167);
+    font-weight: 605;
+    width: 325px;
+}
+
+
+#Cliente{
+
+    width: 750px;
+    
+    margin-left: 1px;
+    font-weight: 605;
+    border: 3.5px double rgb(12, 97, 167);
+    color:rgb(0, 8, 12);
+}
+.letra{
+    color: rgb(31, 78, 120);
+    background: white;
+    border: 3.5px double rgb(12, 97, 167);
+    width: 75px;
+    font-weight: 605;
+}
+
+.letra1{
+    color: rgb(31, 78, 120);
+    background: white;
+    border: 3.5px double rgb(12, 97, 167);
+    width: 125px;
+    font-weight: 605; 
+}
+.letra2{
+    color: rgb(31, 78, 120);
+    background: white;
+    border: 3.5px double rgb(12, 97, 167);
+    width: 140px;
+    font-weight: 605; 
+}
+
+.letra3{
+    color: rgb(5, 5, 5);
+    background: white;
+    border: 3.5px double rgb(12, 97, 167);
+    width: 826px;
+    font-weight: 605; 
+}
+.letra4{
+    margin-top: 1px;
+    margin-left: 2px;
+    color: rgb(31, 78, 120);
+    background: white;
+    border: 3.5px double rgb(12, 97, 167);
+    width: 175px;
+    font-weight: 605;
+}
+
+.letra5{
+    color: rgb(31, 78, 120);
+    background: white;
+    border: 3.5px double rgb(12, 97, 167);
+    width: 200px;
+    font-weight: 605; 
+}
+.letra9{
+    color: black;
+    background: white;
+    border: 3.5px double rgb(12, 97, 167);
+    width: 200px;
+    font-weight: 605; 
+}
+.letra6{
+    color: rgb(31, 78, 120);
+    background: white;
+    border: 3.5px double rgb(12, 97, 167);
+    width: 160px;
+    font-weight: 605;
+}
+
+.letra7{
+    color: rgb(31, 78, 120);
+    background: white;
+    border: 3.5px double rgb(12, 97, 167);
+    width: 90px;
+    font-weight: 605;
+}
+
+.letra8{
+    color: rgb(31, 78, 120);
+    background: white;
+    border: 3.5px double rgb(12, 97, 167);
+    width: 90px;
+    font-weight: 605;
+}
+.letra10{
+    margin-top: 1px;
+    margin-left: 2px;
+    color: rgb(31, 78, 120);
+    background: white;
+    border: 3.5px double rgb(12, 97, 167);
+    width: 80px;
+    font-weight: 605;
+}
+.letra11{
+    margin-top: 1px;
+    margin-left: 93.5px;
+    color: rgb(31, 78, 120);
+    background: white;
+    border: 3.5px double rgb(12, 97, 167);
+    width: 75px;
+    font-weight: 605;
+}
+.letra12{
+    margin-top: 1px;
+    margin-left: 1px;
+    color: rgb(31, 78, 120);
+    background: white;
+    border: 3.5px double rgb(12, 97, 167);
+    width: 125px;
+    font-weight: 605;
+}
+.letra13{
+    margin-top: 1px;
+    margin-left: 1px;
+    color: rgb(31, 78, 120);
+    background: white;
+    border: 3.5px double rgb(12, 97, 167);
+    width: 80px;
+    font-weight: 605;
+}
+.letra14{
+    margin-top: 1px;
+    margin-left: 132px;
+    color: rgb(31, 78, 120);
+    background: white;
+    border: 3.5px double rgb(12, 97, 167);
+    width:80px;
+    font-weight: 605;
+}
+.letra15{
+    color: black;
+    background: white;
+    border: 3.5px double rgb(12, 97, 167);
+    width: 228px;
+    font-weight: 605; 
+}
+
+#Cotización{
+
+    width: 750px;
+    
+    margin-left: 1px;
+    font-weight: 605;
+    border: 3.5px double rgb(12, 97, 167);
+    color:rgb(0, 8, 12);
+}
+#Buscar{
+    font-size: 15px;
+    color:rgb(0, 5, 8);
+   background: white;
+ 
+    border: 3.5px double rgb(12, 97, 167);
+    font-weight: 605;
+    width: 350px;
+}
+#navbarNav{
+    background-color:white;
+}
+#navbarNav #menulista a{
+    color: rgb(31, 78, 120);
+    background: white;
+    border: 3.5px double rgb(12, 97, 167);
+    padding: 0.2px 5px;
+    display: block;
+   font-size: 14px;
+   font-weight: 625;
+   text-decoration: none;
+}
+#menulista ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menulista #desplegar{
+   display: none;
+   position: absolute;
+   min-width: 151px;
+}
+#menulista #item a:hover{
+    background:rgb(206, 199, 199);
+    color: black;
+    text-decoration: none;
+}
+#menulista #item:hover #desplegar{
+    display: block;
+
+}
+
+#principal1{
+
+    background: rgb(151, 225, 238);
+    height: 1000px;
+    width: 1335px;
+    margin-left: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
+
+}
+#principal2{
+
+    background: rgb(57, 178, 199);
+ width: 1300px;
+    height: 100px;
+    margin-left: 10px;
+    margin-top: 5px;
+border-radius:15px ;
+border-width: 1px;  
+border-style: solid;
+border-color: blue;
+    
+ 
+}
+#principal3{
+
+    background: rgb(57, 178, 199);
+ width: 600px;
+    height: 120px;
+    margin-left: 10px;
+    margin-top: 5px;
+border-radius:15px ;
+border-width: 1px;  
+border-style: solid;
+border-color: blue;
+    
+ 
+}
+
+#margen{
+    margin-left: 10px;
+    margin-top: 20px;
+}
+#Fecha10{
+    margin-left: 35px;
+}
+#Fecha11{
+
+    margin-left: 1px;
+}
+#Fecha{
+    
+    margin-left: 0px;
+}
+.bordes{
+border-top:2px solid black;
+border-bottom: 2px solid blue;
+border-left: 2px solid red;
+border-right: 2px solid yellow;
+background-color: rgb(8, 118, 221);
+width: 1300px;
+border-radius: 10px;
+height: 70px;
+margin-left: 20px;
+
+}
+#vercotizaciones{
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.bordessection{
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    margin-left: 10;
+}
+#calendario{
+    margin-left: 15px;
+    width: 25px;
+}
+
+#filtro{
+    margin-left: 50px;
+}
+#num{
+    width: 50px;
+    margin-left: 20px;
+
+}
+#verfecha{
+    margin-left: -5px;
+ 
+}
+
+.verfecha1{
+    color: rgb(31, 78, 120);
+    background: white;
+    border: 3.5px double rgb(12, 97, 167);
+    width: 140px;
+    font-weight: 605; 
+    margin-left: -5px;  
+
+}
+.verfecha2{
+    color: rgb(31, 78, 120);
+    background: white;
+    border: 3.5px double rgb(12, 97, 167);
+    width: 300px;
+    font-weight: 605; 
+    margin-left: -5px;  
+ 
+}
+.verfecha3{
+    color: rgb(31, 78, 120);
+    background: white;
+    border: 3.5px double rgb(12, 97, 167);
+    width: 500px;
+    font-weight: 605; 
+    margin-left: -5px;  
+}
+.verfecha4{
+    color: rgb(31, 78, 120);
+    background: white;
+    border: 3.5px double rgb(12, 97, 167);
+    width: 140px;
+    font-weight: 605; 
+    margin-left: -5px;  
+
+}
+.verfecha5{
+    color: rgb(31, 78, 120);
+    background: white;
+    border: 3.5px double rgb(12, 97, 167);
+    width: 300px;
+    font-weight: 605; 
+    margin-left: -5px;  
+ 
+}
+.verfecha6{
+    color: rgb(31, 78, 120);
+    background: white;
+    border: 3.5px double rgb(12, 97, 167);
+    width: 500px;
+    font-weight: 605; 
+    margin-left: -5px;  
+}
+.verfecha7{
+    color: rgb(31, 78, 120);
+    background: white;
+    border: 3.5px double rgb(12, 97, 167);
+    width: 50px;
+    font-weight: 605; 
+    margin-left: -5px;  
+ 
+}
+.verfecha8{
+    color: rgb(31, 78, 120);
+    background: white;
+    border: 3.5px double rgb(12, 97, 167);
+    width: 135px;
+    font-weight: 605; 
+    margin-left: -5px;  
+}
+.verfecha9{
+    color: rgb(31, 78, 120);
+    background: white;
+    border: 3.5px double rgb(12, 97, 167);
+    width: 140px;
+    font-weight: 605; 
+    margin-left: -5px;  
+}
+#ver_nombre{
+    margin-left: 10px;
+    width: 538px;
+}
+#ver_buscar{
+    margin-left: 50px;
+}
+#ver_tabla{
+    background: rgb(57, 178, 199);
+    width: 1270px;
+       height: 100px;
+       margin-left: 20px;
+       margin-top: 5px;
+   
+   border-width: 2px;  
+   border-style: solid;
+   border-color: black;
+   border-bottom: 2px black solid;
+}
+#prod_vaciar{
+    margin-left: 5px;
+}
+#ver_nombre1{
+    float: left;
+    font-size: 15px;
+    color:rgb(0, 8, 12);
+   background: white;
+ margin-top: -32px ;
+    border: 3.5px double rgb(12, 97, 167);
+    font-weight: 605;
+    width: 538px;
+}
+
+
+ #Aplicar{
+    float: right;
+    margin-right: 360px;
+    color:rgb(31, 78, 120);
+    background: white;
+  
+     border: 3.5px double rgb(12, 97, 167);
+     font-weight: 600; 
+     width: 175px;
+ }
+ #Aplicar1{
+    float: right;
+    margin-top: 8px;
+    margin-right: 1093px;
+    color:rgb(31, 78, 120);
+    background: white;
+  
+     border: 3.5px double rgb(12, 97, 167);
+     font-weight: 600; 
+     width: 175px;
+ }
+ #Aplicar2{
+    float: right;
+    margin-top: -30px;
+    margin-right: 729px;
+    color:rgb(31, 78, 120);
+    background: white;
+  
+     border: 3.5px double rgb(12, 97, 167);
+     font-weight: 600; 
+     width: 175px;
+ }
+ #Aplicar3{
+    float: right;
+    margin-top: -70px;
+    margin-right: 229px;
+    color:rgb(31, 78, 120);
+    background: white;
+  
+     border: 3.5px double rgb(12, 97, 167);
+     font-weight: 600; 
+     width: 175px;
+ }
+ #Aplicar4{
+    float: right;
+    margin-top: -30px;
+    margin-right: 229px;
+    color:rgb(31, 78, 120);
+    background: white;
+  
+     border: 3.5px double rgb(12, 97, 167);
+     font-weight: 600; 
+     width: 175px;
+ }
+ #Aplicar5{
+    float: right;
+    margin-top: -70px;
+    margin-right: 8px;
+    color:rgb(31, 78, 120);
+    background: white;
+  
+     border: 3.5px double rgb(12, 97, 167);
+     font-weight: 600; 
+     width: 175px;
+ }
+ #Aplicar6{
+    float: right;
+    margin-top: -30px;
+    margin-right: 8px;
+    color:rgb(31, 78, 120);
+    background: white;
+  
+     border: 3.5px double rgb(12, 97, 167);
+     font-weight: 600; 
+     width: 175px;
+ }
+ #ot {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background: blue;
+    color: red;
+ }
+ #acoti{
+    float: right;
+    margin-top: -38px;
+    margin-right: 100px;
+    color:rgb(31, 78, 120);
+    background: white;
+  
+     border: 3.5px double rgb(12, 97, 167);
+     font-weight: 600; 
+ }
+ #acoti{
+    float: right;
+    margin-top: 0px;
+    margin-right: -285px;
+ }
+ #acoti1{
+    
+    width: 146px;
+ }
+ #nuevo_registrar{
+    margin-left: 15px;
+}
+#nuevo_agregar{
+    float: right;
+    margin-right: 900px;
+    margin-top: 1.65px;
+    color:rgb(31, 78, 120);
+    background: white;
+  
+     border: 3.5px double rgb(12, 97, 167);
+     font-weight: 600; 
+     width: 195px;
+ }
+ #nuevo_agregar1{
+    float: right;
+    margin-right: 688px;
+    margin-top: -30px;
+    color:rgb(31, 78, 120);
+    background: white;
+  
+     border: 3.5px double rgb(12, 97, 167);
+     font-weight: 600; 
+     width: 195px;
+ }
+
+
+ #Buscar1{
+     margin-left: 25px;
+     margin-top: 5px;
+    font-size: 15px;
+    color:rgb(0, 5, 8);
+   background: white;
+ 
+    border: 1px solid rgb(12, 97, 167);
+    font-weight: 605;
+    width: 350px;
+}
+#Buscar2{
+    margin-left: 19px;
+    margin-top: 5px;
+   font-size: 15px;
+   color:rgb(0, 5, 8);
+  background: white;
+
+   border: 1px solid rgb(12, 97, 167);
+   font-weight: 605;
+   width: 350px;
+}
+#Buscar3{
+    margin-left: 40px;
+    margin-top: 5px;
+   font-size: 15px;
+   color:rgb(0, 5, 8);
+  background: white;
+
+   border: 1px solid rgb(12, 97, 167);
+   font-weight: 605;
+   width: 350px;
+}
+#Buscar4{
+    margin-left: 3px;
+    margin-top: 5px;
+   font-size: 15px;
+   color:rgb(0, 5, 8);
+  background: white;
+
+   border: 1px solid rgb(12, 97, 167);
+   font-weight: 605;
+   width: 350px;
+}
+
+#Buscar5{
+    margin-left: 9px;
+    margin-top: 5px;
+   font-size: 15px;
+   color:rgb(0, 5, 8);
+  background: white;
+
+   border: 1px solid rgb(12, 97, 167);
+   font-weight: 605;
+   width: 350px;
+}
+#Buscar6{
+    margin-left: 43px;
+    margin-top: 5px;
+   font-size: 15px;
+   color:rgb(0, 5, 8);
+  background: white;
+
+   border: 1px solid rgb(12, 97, 167);
+   font-weight: 605;
+   width: 350px;
+}
+
+
+#datos{
+    color: rgb(3, 76, 124);
+    font-size: 20px;
+    font-weight: 600;
+}
+#principal4{
+    float: right;
+    background: rgb(57, 178, 199);
+ width: 670px;
+    height: 120px;
+    margin-right: 10px;
+    margin-top: -120px;
+border-radius:15px ;
+border-width: 1px;  
+border-style: solid;
+border-color: blue; 
+}
+#agregtel{
+    margin-left: 50px;
+}
+/*Mantenimiento de Productos*/
+#calendario{
+    margin-left: 35px;
+}
+#mostrar{
+    margin-left: 2px;
+}
+
+.fondo{
+
+    background-color: blue;
+}
+.fondo2{
+
+    background-color: rgb(255, 0, 21);
+}
+
+
+
+/*.rango .col-sm-4{
+flex: 33%;
+max-width: 33%;
+
+
+}*/
+
+
+
+
+

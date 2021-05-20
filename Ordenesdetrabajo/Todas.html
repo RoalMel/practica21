@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css" integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
+    <link rel="stylesheet" href=../main.css>
+    <link rel="stylesheet" href=ot.css>
+    <title>Cotización</title>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="index.html"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul id="menulista" class="navbar-nav">
+          <li id="item" class="nav-item active">
+            <a class="nav-link" href="">Ordenes de Trabajo<span class="sr-only">(current)</span></a>
+           
+            <ul id="desplegar">
+              <ul id="desplegar">
+                <li ><a href="../Ordenesdetrabajo/EnProceso.html" >En Proceso</a></li>
+                <li ><a href="../Ordenesdetrabajo/Finalizadas.html">Finalizadas</a></li>
+                <li ><a href="../Ordenesdetrabajo/Anuladas1.html" >Anuladas</a></li>
+                <li ><a href="../Ordenesdetrabajo/Todas.html">Todas</a></li>
+                
+            </ul>
+            
+         
+      </div>
+    </nav>
+ <section id="logo2"></section>
+  <img src="../logoconletras.jpg" alt="logoeisa" id="logo1">
+</section>
+</head>
+
+<br>
+
+
+
+
+<body>
+  <header>
+     
+
+    <section  class="col-sm-12 col-md-8 col-lg-12"  id="principal1">
+    
+        <label for="" id="vercotizaciones" class="letra1">Todas</label>
+      
+       <!--<div   id=ot1>
+          
+        
+          <ul  id="ot2">
+            <li id="ot"><a href="Ordenesdetrabajo1.html">Ordenes de Trabajo</a>
+    
+              <ul id="desplegar2">
+                <li><a href="../Practica/Ordenesdetrabajo/Enproceso.html" >En Proceso</a></li>
+                <li><a href="../Practica/Ordenesdetrabajo/Finalizadas.html">Finalizadas</a></li>
+                <li><a href="../Practica/Ordenesdetrabajo/Anuladas.html" >Anuladas</a></li>
+                <li><a href="../Practica/Ordenesdetrabajo/Todas.html">Todas</a></li>
+                <li><a href="">Generar nueva orden</a></li>
+              
+                 </ul>
+                   
+    
+            </li>
+            
+               </ul>
+              </div>  
+            -->
+     
+    <!--
+    
+    
+    -->
+    
+    
+        
+        <button type="button" id="regresarot" class="letra1"><a href="../Cotización.html">A Cotización</a></button>
+    
+       
+    
+       <div  class="col-sm-12 col-md-8 col-lg-12"  id="principal2">
+            <label for="Fecha" id="margen" class="letra">Del</label>  
+            <input type="datetime"  class="cuadrodedialogo3" id="Fecha" >  
+            <label for="calendario" class="letra" id="calendario">al</label> 
+            <input type = "datetime" class="cuadrodedialogo3"  name="month" >
+            <button type="button" class="letra1" id="filtro">Filtrar</button>
+            <button type="button" class="letra1" id="mostrar" >Mostrar Todo</button><br>
+            <input type="text" class="cuadrodedialogo3 "placeholder="Nombre del cliente" id="ver_nombre" >
+            <button type="button" class="letra1" id="ver_buscar">Buscar</button>
+            <button type="button"  data-toggle="modal" data-target="#exampleModal" id="Aplicar" >
+                Ver Ordenes 
+              </button> 
+    
+        </div>
+    
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Que desea hacer</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  Elija una opción
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-info" data-dismiss="modal">Ver Orden de Trabajo</button>
+                  <button type="button" class="btn btn-primary" data-dismiss="modal">Imprimir Orden de Trabajo</button>
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+    
+    <div >
+    
+        <label for="num" class="letra"  id="num" >Num</label> 
+        <label for="" class="letra2" id="verfecha">Fecha</label>
+        <label for="" class="verfecha2">Nombre</label>
+        <label for="" class="verfecha1" >Valor</label>
+        <label for="" class="verfecha1" >Estado</label>
+        <label for="" class="verfecha3" >.</label>
+    </div>
+    
+     
+      
+      
+    
+    <div id="ver_tabla">
+    
+    <section id="tabla1">
+                  <table class="table table-bordered">
+                   
+                    <tbody>
+                      <tr>
+                        <th scope="row" class="verfecha7">1</th>
+                        <td class="verfecha8">02/15/2000</td>
+                        <td class="verfecha5">Juan Mendez</td>
+                        <td class="verfecha4" >1000</td>
+                        <td class="verfecha9">Si</td>
+                        <td  class="verfecha6" >.</td>
+                       
+                      </tr>
+                      <tr>
+                        <th scope="row" class="verfecha7">2</th>
+                        <td class="verfecha8">02/15/2000</td>
+                        <td class="verfecha5">Jose García</td>
+                        <td class="verfecha4" >2000</td>
+                        <td class="verfecha9">No</td>
+                        <td  class="verfecha6" >.</td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="verfecha7">3</th>
+                        <td class="verfecha8">02/15/2000</td>
+                        <td class="verfecha5">Otto Mazariegos</td>
+                        <td class="verfecha4" >2000</td>
+                        <td class="verfecha9">Si</td>
+                        <td  class="verfecha6" >.</td>
+                      </tr>
+                    </tbody>
+                  </table>
+            
+          
+        
+               
+        </div> 
+        </div>
+    </section>
+    </div>
+    
+    
+    
+    
+    </section>
+    
+    
+    
+    
+    
+    
+    
+    
+        </header>
+
+    <!--
+    <h1 class= "text-center">Cotizaciónes</h1>
+    *{
+    background-color: teal;
+    
+}
+    -->
+ 
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+
+    
+</html>

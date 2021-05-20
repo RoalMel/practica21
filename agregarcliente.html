@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css" integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
+    <link rel="stylesheet" href=main.css>
+  <title>Document</title>
+</head>
+<body>
+    <header>
+<section class="col-sm-12 col-md-12 col-lg-12" >
+    <img src="logoconletras.jpg" alt="logoeisa" id="logo1">
+    <section>
+
+    </section>
+
+</section>
+
+<section  class="col-sm-12 col-md-8 col-lg-12"  id="principal1">
+
+    <label for="" id="vercotizaciones" class="letra1">Cotizáciones</label>
+    <button type="button" class="letra1"><a href="Cotización.html">Ir</a></button>
+    <label for="" id="vercotizaciones" class="letra9">Agregar Cliente</label><br>
+
+    <button type="button" class="letra4" id="nuevo_registrar">Registrar y Cerrar</button>
+    <button type="button"  data-toggle="modal" data-target="#exampleModal" id="nuevo_agregar" >
+Agregar mas datos
+      </button> 
+      <button type="button"  data-toggle="modal" data-target="#exampleModal2" id="nuevo_agregar1" >
+       Agregar Responsables
+              </button> 
+
+
+   <div  class="col-sm-12 col-md-8 col-lg-12"  id="principal3">
+     <label id="datos">Datos del cliente</label>
+     <label for="Buscarcliente"  class="letra14" id="top_fecha">Buscar C.</label>  
+     <input list="Buscarcliente" class="cuadrodedialogo3" />
+     <datalist id="Buscarcliente" >
+       <option value="´Juan"></option>
+                       <option value="Pedro Ramos1"></option>
+                       <option value="Moises Ajche"></option>
+                       <option value="Luis Molina"></option>
+                       <option value="Anderson Gil"></option>
+                       <option value="David Maldonado"></option>
+                       
+                               
+     </datalist>
+     <br>
+    <label for="nuevo_fecha"  class="letra10" id="top_fecha">Codigo</label>  
+    <input type="datetime" class="cuadrodedialogo3 " id="nuevo_fecha" >
+
+      <label for="nuevo_nombre"  class="letra10">Tipo </label>  
+        <!--  <input type="datetime"  class="cuadrodedialogo3" id="Fecha" >  
+        <label for="calendario" class="letra" id="calendario">al</label> 
+        <input type = "datetime" class="cuadrodedialogo3"  name="month" >
+        <button type="button" class="letra1" id="filtro">Filtrar</button>
+      
+        <button type="button" class="letra1">Mostrar Todo</button><br>-->
+        <input list="nombre_cliente" placeholder="Individual/Empresa" class="cuadrodedialogo3 " />
+      <datalist id="nombre_cliente" >
+        <option value="Azul"></option>
+                        <option value="Individual"></option>
+                        <option value="Empresa"></option>
+                       
+                        
+                        
+                                
+      </datalist>
+       
+        <label for="nuevo_orden"  class="letra10">Nombre </label>  
+        <input list="nombre_cliente1" placeholder="Nombre del Cliente" class="cuadrodedialogo3 " />
+      <datalist id="nombre_cliente1" >
+        <option value="Azul"></option>
+                        <option value="Juan Ramos"></option>
+                        <option value="Pedro de León"></option>
+                        <option value="Fernando Ramires"></option>
+                        
+                        
+                                
+      </datalist>
+    
+          <label for="nuevo_saldo"  class="letra10">Dirección</label>  
+          <input type="decimal" class="cuadrodedialogo3 " id="nuevo_saldo" >
+
+     
+
+    </div>
+
+    <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Agregar Responsables
+            </h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            N. del cliente
+            <input list="colores" id="Buscar5"/>
+            <datalist id="colores" >
+              <option value="´Juan"></option>
+                              <option value="Pedro Ramos"></option>
+                              <option value="Moises Ajche"></option>
+                              <option value="Luis Molina"></option>
+                              <option value="Anderson Gil"></option>
+                              <option value="David Maldonado"></option>
+                              
+                                      
+            </datalist>
+         Nombre
+    <input type="text" class="cuadrodedialogo3 " id="Buscar6" ><br>
+            
+    No. de DPI
+    <input type="text" class="cuadrodedialogo3 " id="Buscar1" ><br>
+      
+      Fecha de Nac.
+      <input type="datetime" class="cuadrodedialogo3 " id="Buscar4" ><br>
+     Referencia   :
+      <input type="decimal" class="cuadrodedialogo3 " id="Buscar2" ><br>
+      Telefono
+      <input type="text" class="cuadrodedialogo3 " id="Buscar3" ><br>
+      
+     
+      
+          </div>
+          <div class="modal-footer">
+            
+            <button type="button" class="btn btn-info" data-dismiss="modal">Registrar</button>
+            <button type="button" class="btn btn-primary" data-dismiss="modal">Cancelar</button>
+           
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Agregar mas Datos
+            </h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+    No. de DPI
+      <input list="colores" id="Buscar1"/>
+      <datalist id="colores" >
+        <option value="Azul"></option>
+                        <option value="Efectivo"></option>
+                        <option value="Tarjeta"></option>
+                        <option value="Cheque"></option>
+                        <option value="Depósito"></option>
+                        <option value="Otros"></option>
+                        
+                                
+      </datalist>
+      Fecha de Nac.
+      <input type="datetime" class="cuadrodedialogo3 " id="Buscar4" ><br>
+     Referencia   :
+      <input type="decimal" class="cuadrodedialogo3 " id="Buscar2" ><br>
+      Telefono
+      <input type="text" class="cuadrodedialogo3 " id="Buscar3" ><br>
+      
+     
+      <input type="checkbox" >
+      Habilitado
+      <input type="checkbox" >
+     Cliente especial
+          </div>
+          <div class="modal-footer">
+            
+            <button type="button" class="btn btn-info" data-dismiss="modal">Registrar</button>
+            <button type="button" class="btn btn-primary" data-dismiss="modal">Cancelar</button>
+           
+          </div>
+        </div>
+      </div>
+    </div>
+
+<div >
+
+    <div  class="col-sm-12 col-md-8 col-lg-12"  id="principal4">
+      <label id="datos"></label>
+      <label for="nuevo_serie"  id="nuevo_depart" class="letra12">Departamento</label>  
+       
+      
+      <input list="series" placeholder="Seleccione Departamento" class="cuadrodedialogo3 " />
+      <datalist id="series" >
+                        <option value="Retalhuleo"></option>
+                        <option value="Quetzaltenango"></option>
+                        <option value="Suchitepeques"></option>
+                        <option value="Huehuetenango"></option>
+                        
+                        
+                                
+      </datalist>
+      <label for="nuevo_serie"  id="nuevo_serie1" class="letra13">Municipio</label>  
+       
+      
+      <input list="Municipio" placeholder="Seleccione Municipio" class="cuadrodedialogo3 " />
+      <datalist id="Municipio" >
+        <option value="Azul"></option>
+                        <option value="Quetzaltenango"></option>
+                        <option value="Mazatenango"></option>
+                        <option value="Huehuetenango"></option>
+                        
+                        
+                                
+      </datalist>
+      <br>
+     <label for="nuevo_nit"  class="letra10" id="top_fecha">Nit</label>  
+     <input type="decimal"  class="cuadrodedialogo3 " id="nuevo_nit" >
+ 
+       <label for="nuevo_numero"  id="agregtel" class="letra10">Tel.:</label>  
+       
+         <input type="decimal" class="cuadrodedialogo3 " id="nuevo_numero" >
+         <label for="nuevo_nombre1"  class="letra10">Profesión </label>  
+         <input type="text" class="cuadrodedialogo3 " id="nuevo_nombre1" >
+     
+           <label for="nuevo_direccion" id="agregtel" class="letra10">Precio</label>  
+           <input type="text" class="cuadrodedialogo3 " id="nuevo_direccion" >
+ 
+      
+ 
+     </div><br>
+ 
+ 
+
+
+   <!-- <div  class="col-sm-12 col-md-8 col-lg-12"  id="principal3"><br>
+       <label for="Fecha" id="margen" class="letra">Datos del Clientel</label>  
+       <input type="datetime"  class="cuadrodedialogo3" id="Fecha" >  
+       <label for="calendario" class="letra" id="calendario">al</label> 
+       <input type = "datetime" class="cuadrodedialogo3"  name="month" >
+       <button type="button" class="letra1" id="filtro">Filtrar</button>
+     
+       <button type="button" class="letra1">Mostrar Todo</button><br>
+       <input type="text" class="cuadrodedialogo3 "placeholder="Nombre del cliente" id="ver_nombre" >
+       <button type="button" class="letra1" id="ver_buscar">Buscar</button>
+       <button type="button"  data-toggle="modal" data-target="#exampleModal" id="Aplicar" >
+         Nuevo Pago
+         </button> 
+
+   </div>-->
+
+   
+
+    <label for="num" class="letra"  id="num" >Num.</label> 
+    <label for="" class="letra2" id="verfecha">Cliente</label>
+    <label for="" class="verfecha2">Teléfono</label>
+    <label for="" class="verfecha1" >DPI</label>
+    <label for="" class="verfecha1" >Departamento</label>
+    <label for="" class="verfecha3" >Habilitado</label>
+</div>
+
+ 
+  
+  
+
+<div id="ver_tabla">
+
+<section id="tabla1">
+              <table class="table table-bordered">
+               
+                <tbody>
+                  <tr>
+                    <th scope="row" class="verfecha7">1</th>
+                    <td class="verfecha8">Juan Ramos</td>
+                    <td class="verfecha5">16516565</td>
+                    <td class="verfecha4" >1000</td>
+                    <td class="verfecha9">Si</td>
+                    <td  class="verfecha6" >.</td>
+                   
+                  </tr>
+                  <tr>
+                    <th scope="row" class="verfecha7">2</th>
+                    <td class="verfecha8">Pedro de León</td>
+                    <td class="verfecha5">458165215</td>
+                    <td class="verfecha4" >2000</td>
+                    <td class="verfecha9">No</td>
+                    <td  class="verfecha6" >.</td>
+                  </tr>
+                  <tr>
+                    <th scope="row" class="verfecha7">3</th>
+                    <td class="verfecha8">Fernando Ramires</td>
+                    <td class="verfecha5">515198185</td>
+                    <td class="verfecha4" >2000</td>
+                    <td class="verfecha9">Si</td>
+                    <td  class="verfecha6" >.</td>
+                  </tr>
+                </tbody>
+              </table>
+        
+      
+    
+           
+    </div> 
+    </div>
+</section>
+</div>
+
+
+
+
+</section>
+
+
+
+
+
+
+
+
+    </header>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+</body>
+</html>

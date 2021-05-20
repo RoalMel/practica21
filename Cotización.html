@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href=main.css>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css"
+    integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
+
+  <title>Cotización</title>
+
+
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html">Inicio</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul id="menulista" class="navbar-nav">
+        <li id="item" class="nav-item active">
+          <a class="nav-link" href="Cotización.html">Cotización<span class="sr-only">(current)</span></a>
+
+          <ul id="desplegar">
+            <li><a href="vercotización.html">Ver Cotizaciónes</a></li>
+            <li><a href="">Anular Cotización</a></li>
+          </ul>
+
+        </li>
+        <li id="item" class="nav-item active">
+          <a class="nav-link" href="Ordenesdetrabajo1.html">Ordenes de Trabajo</a>
+
+          <ul id="desplegar">
+            <li><a href="../Practica/Ordenesdetrabajo/Enproceso.html">En Proceso</a></li>
+            <li><a href="../Practica/Ordenesdetrabajo/Finalizadas.html">Finalizadas</a></li>
+            <li><a href="../Practica/Ordenesdetrabajo/Anuladas1.html">Anuladas</a></li>
+            <li><a href="../Practica/Ordenesdetrabajo/Todas.html">Todas</a></li>
+            <li><a href="GenerarOrden.html">Generar nueva orden</a></li>
+
+          </ul>
+        </li>
+        <li id="item" class="nav-item active">
+          <a class="nav-link" href="Estado.html">Estado</a>
+
+          <ul id="desplegar">
+            <li><a href="">Agegar pago</a></li>
+            <li><a href="">Pendientes de cobro</a></li>
+            <li><a href="cotizacionesaplicadas.html">Cotizaciónes Aplicadas</a></li>
+            <li><a href="generalporcliente.html">General por Cliente</a></li>
+          </ul>
+        </li>
+        </li>
+
+        <li id="item" class="nav-item active">
+          <a class="nav-link" href="Clientes.html">Clientes</a>
+
+          <ul id="desplegar">
+            <li><a href="">Ver lista de clientes</a></li>
+            <li><a href="">Agregar nuevo cliente</a></li>
+            <li><a href="">Editar cliente</a></li>
+            <li><a href="">Eliminar Cliente</a></li>
+          </ul>
+        </li>
+        <li id="item" class="nav-item active">
+          <a class="nav-link" href="Caja.html">Caja</a>
+
+          <ul id="desplegar">
+            <li><a href="">Apertura de turno</a></li>
+            <li><a href="">Cierre de turno</a></li>
+            <li><a href="">Caja</a></li>
+            <li><a href="">Reporte de Ventas</a></li>
+            <li><a href="">Cierre de caja</a></li>
+          </ul>
+        </li>
+        <li id="item" class="nav-item active">
+          <a class="nav-link" href="Facturas.html">Facturas</a>
+
+          <ul id="desplegar">
+            <li><a href="">Series de Facturas</a></li>
+            <li><a href="">Datos de Facturación</a></li>
+            <li><a href="">Facturas</a></li>
+
+          </ul>
+        </li>
+        <li id="item" class="nav-item active">
+          <a class="nav-link" href="Gastos.html">Gastos</a>
+
+          <ul id="desplegar">
+            <li><a href="">Gastos Generales</a></li>
+            <li><a href="">Gastos por orden de trabajo</a></li>
+
+          </ul>
+        </li>
+        <li id="item" class="nav-item active">
+          <a class="nav-link" href="Resumen.html">Resumen</a>
+
+          <ul id="desplegar">
+            <li><a href="">Ingresar pagos por orden de trabajo</a></li>
+            <li><a href="">Ingresar gastos por orden de trabajo </a></li>
+            <li><a href="">Ver ordenes de trabajo</a></li>
+            <li><a href="">Ver Cotizaciones</a></li>
+          </ul>
+        </li>
+
+        <li id="item" class="nav-item active">
+          <a class="nav-link" href="Productos.html">Productos</a>
+
+          <ul id="desplegar">
+            <li><a href="">Productos</a></li>
+            <li><a href="">Precios </a></li>
+            <li><a href="">Ventas de Productos</a></li>
+
+          </ul>
+        </li>
+
+        <li id="item" class="nav-item active">
+          <a class="nav-link" href="RG.html">RG</a>
+
+          <ul id="desplegar">
+            <li><a href="">Ver Resumen</a></li>
+            <li><a href="">Otros Ingresos </a></li>
+            <li><a href="">Otros Gastos</a></li>
+
+          </ul>
+        </li>
+
+        <li class="nav-item active">
+          <a class="nav-link" href="Configuración.html">Configuración</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Configuración 2</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <section id="logo2"></section>
+  <img src="logoconletras.jpg" alt="logoeisa" id="logo1">
+  </section>
+</head>
+
+<br>
+
+
+
+
+<body>
+
+
+  <!--
+    <h1 class= "text-center">Cotizaciónes</h1>
+    *{
+    background-color: teal;
+    
+}
+    <li> 
+            <ul>
+                <li><a href=""> Ind</a></li>
+                <li><a href="">nom</a></li>
+                <li><a href="">eda</a></li>
+                <li><a href="">dir</a></li>
+
+            </ul>
+            </li>-->
+  <section id="cuerpo">
+    <div class="fluid" id="cuerpo">
+
+      <div clas="row">
+      <form>
+
+
+        <!--class="col-sm-12 col-md-12 col-lg-12"-->
+
+          
+            <div  id="div1">
+              <label for="Numero" id="numero">Cotiz. Numero</label>
+              <input type="number" class="cuadrodedialogo" id="Numero">
+            </div>
+
+
+            <div >
+              <label for="Fecha" class="letra">Fecha</label>
+              <input type="datetime" class="cuadrodedialogo" id="Fecha">
+            </div>
+
+
+            <div >
+              <label for="Habilitado" id="Habilitado1">Habilitado </label>
+              <input type="checkbox" id="Habilitado">
+              <button type="button" data-toggle="modal" data-target="#exampleModal" id="Guardar">
+                Guardar
+              </button>
+            </div>
+
+          
+
+        </form>
+        </div>
+
+
+    </div>
+
+
+    <!-- <input type="submit" class="btn btn-primary" value="Guardar"  data-toggle="modal" data-target="#exampleModal" " >-->
+
+
+    <!-- Button trigger modal -->
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Que desea hacer</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            Elija una opción
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-info" data-dismiss="modal">Guardar</button>
+            <button type="button" class="btn btn-primary" data-dismiss="modal">Guardar e imprimir</button>
+            <button type="button" class="btn btn-info" data-dismiss="modal">Guardar y Crear orden </button>
+            <button type="button" class="btn btn-primary" data-dismiss="modal">Guardar e imprimir y Crear orden de
+              Trabajo</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--
+              <div class="form-group1">
+                <label for="Fecha">Fecha</label>  
+                <input type="datetime"  id="Fecha" >
+              </div><br>-->
+
+    <div class="form-group2">
+      <label for="Cliente" class="letra">Cliente</label>
+      <label for="Codigo" class="letra">Codigo</label>
+      <input type="number" class="cuadrodedialogo" id="Codigo">
+
+      <select name="" class="cuadrodedialogo" id=Con/Sinmedidas>
+        <option value="ConMedidas">Fabricación</option>
+        <option value="Sin Medidas">Productos y/o Servicios</option>
+      </select>
+
+      <input type="text" class="form-control" placeholder="Nombre del cliente " id="Cliente">
+
+    </div><br>
+
+
+
+
+    <div class="form-group3">
+      <label for="TipoCliente" class="letra1">Tipo Cliente</label>
+      <select name="" class="cuadrodedialogo" id="TipoCliente">
+        <option value="Normal">Normal</option>
+        <option value="Especial">Especial</option>
+      </select>
+      <label for="tipodeprecio" class="letra1">Tipo de Precio</label>
+      <select name="" class="cuadrodedialogo" id="tipodeprecio">
+        <option value="Especial">Especial</option>
+        <option value="Normal">Normal</option>
+        <option value="Personalizado">Personalizado</option>
+      </select>
+
+    </div>
+
+    <div class="form-group4">
+      <label for="Cotización" class="letra1">Cotización</label>
+      <input type="text" class="form-control" id="Cotización">
+
+    </div><br>
+    <!--
+                   <div class="form-group5">
+                  <label for = "Con/Sinmedidas">Con/Sin Medidas</label>
+                  <select name="" id=Con/Sinmedidas>
+                    <option value="ConMedidas">Con Medidas</option>
+                    <option value="Sin Medidas">Sin medidas</option>
+                  </select>
+                </div><br> -->
+
+    <!--             <div class="form-group6"></div>
+                <label for = "Habilitado">Habilitado</label>
+                <input type="checkbox"  id="Habilitado" >
+               
+              </div><br>-->
+
+    <!--           <div class="form-group7">
+                <label for = "tipodeprecio">Tipo de Precio</label>
+                <select name="" id="tipodeprecio">
+                  <option value="Especial">Especial</option>
+                  <option value="Normal">Normal</option>
+                  <option value="Personalizado">Personalizado</option>
+
+
+                </select>
+              </div><br>-->
+
+    <div class="form-group8">
+      <label for="Buscar" class="letra2">Buscar Productos</label>
+      <input list="productos" id="Buscar" />
+      <datalist id="productos">
+        <option value="Azul"></option>
+        <option value="Ventana corrediza de uPVC blanco serie 80"></option>
+        <option value="Ventana corrediza de uPVC blanco serie 60"></option>
+        <option value="Ventana abatible de uPVC blanco serie 60"></option>
+        <option value="Ventana vidrio fijo de uPVC blanco serie 60"></option>
+        <option value="Puerta de uPVC blanco marco sencillo"></option>
+        <option value="Puerta de uPVC blanco marco doble"></option>
+        <option value="Unidad de Circuito de iluminación simple"></option>
+        <option value="Unidad de Circuito de tomacorriente polarizado"></option>
+
+      </datalist>
+      <!--  <datalist id="colores">
+                  <option value="Azul"></option>
+                  <option value="Amarillo"></option>
+                  <option value="Burdeos"></option>
+                  <option value="Caoba"></option>
+                  <option value="Marrón"></option>
+                  <option value="Naranja"></option>
+                  <option value="Verde"></option>
+              </datalist>
+              <input type="text" list="colores " name="colores"> -->
+
+
+
+
+      <label for="Ancho" class="cuadrodedialogo2">Ancho Mts.</label>
+      <input type="decimal" class="cuadrodedialogo1" id="Ancho">
+      <label for="Largo" class="cuadrodedialogo2">Largo Mts.</label>
+      <input type="decimal" class="cuadrodedialogo1" id="Largo">
+      <label for="Cantidad" class="cuadrodedialogo2">Cant.</label>
+      <input type="integer" class="cuadrodedialogo1" id="Cantidad"><br>
+
+
+
+
+      <label for="Descripción" class="letra1">Descripción</label>
+      <input type="text" class="letra3" id="Descripción">
+      <input type="submit" class="cuadrodedialogo2" value="Insertar" id="Insertar">
+
+
+    </div>
+    <!-- <div class="form-group9">
+                <label for="Ancho">Ancho</label>
+                <input type="text"  id="Ancho">
+                <label for="Largo">Largo</label>
+                <input type="text"  id="Largo">
+
+              </div><br>
+            -->
+
+
+    <!-- <div class="form-group form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+            -->
+    <br />
+  </section>
+
+  <h1></h1>
+
+  <br />
+  <section id="tabla1">
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th scope="col">Cant.</th>
+          <th scope="col">Producto</th>
+          <th scope="col">Descripción</th>
+          <th scope="col">Ancho</th>
+          <th scope="col">Alto</th>
+          <th scope="col">Total(m)</th>
+          <th scope="col">Costo</th>
+          <th scope="col">Total</th>
+
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Mark</td>
+          <td>Otto</td>
+          <td>@mdo</td>
+          <td>Otto</td>
+          <td>@mdo</td>
+          <td>Otto</td>
+          <td>@mdo</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Jacob</td>
+          <td>Thornton</td>
+          <td>@fat</td>
+          <td>Thornton</td>
+          <td>@fat</td>
+          <td>Otto</td>
+          <td>@mdo</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>Larry</td>
+          <td>the Bird</td>
+          <td>@twitter</td>
+          <td>the Bird</td>
+          <td>@twitter</td>
+          <td>Otto</td>
+          <td>@mdo</td>
+        </tr>
+      </tbody>
+    </table>
+
+
+
+
+    </div>
+    </div>
+  </section>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+</body>
+
+
+</html>
